@@ -52,7 +52,7 @@ RUN apt-get install -y nodejs npm
 
 # Install Haskell
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 575159689BEFB442
-RUN apt-get update && apt-get install haskell-stack -y
+RUN curl -sSL https://get.haskellstack.org/ | sh
 
 # # Install Java
 # RUN add-apt-repository ppa:openjdk-r/ppa && apt-get update
