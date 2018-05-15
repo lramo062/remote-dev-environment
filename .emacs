@@ -14,6 +14,15 @@
 (setq package-enable-at-startup nil)
 (package-initialize)
 
+;; Load packages
+(load-file "~/.emacs.d/.packages.el")
+
+;; Load Programming Lang
+(load-file "~/.emacs.d/.programming_lang.el")
+
+;; Load Org-Mode
+;;(setq org-agenda-files (list "~/FIU/TODO.org"))
+
 ;; remove top menu bar in mac
 (setq ns-auto-hide-menu-bar t)
 
@@ -171,16 +180,4 @@
 
 ;; Magit Status short-cut
 (global-set-key (kbd "C-x g") 'magit-status)
-
-;; cider
-(require 'cider)
-
-;; Load packages
-(load-file "~/.emacs.d/.packages.el")
-
-;; Load Programming Lang
-(load-file "~/.emacs.d/.programming_lang.el")
-
-;; Load Org-Mode
-;;(setq org-agenda-files (list "~/FIU/TODO.org"))
 ;;; END
