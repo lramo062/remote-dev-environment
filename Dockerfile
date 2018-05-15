@@ -85,6 +85,7 @@ RUN cd /home/lester/remote-dev-environment && cp -r .emacs .emacs.d .zshrc /home
 
 USER root
 RUN mv /root/.oh-my-zsh /home/lester/
+RUN apt-get update && apt-get upgrade
 
 USER lester
 ENV USER lester
