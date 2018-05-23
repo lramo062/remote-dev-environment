@@ -8,6 +8,7 @@ antergos-keyring
 antergos-midnight-timers
 antergos-mirrorlist
 arc-gtk-theme
+arc-icon-theme
 aurman
 autoconf
 automake
@@ -97,10 +98,15 @@ netctl
 networkmanager
 nfs-utils
 nilfs-utils
+noto-fonts-cjk
 ntfs-3g
 numix-gtk-theme
 openssh
 os-prober
+osx-arc-darker
+osx-arc-plus
+osx-arc-shadow
+osx-arc-white
 pacman
 paper-icon-theme
 papirus-icon-theme

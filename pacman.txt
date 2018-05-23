@@ -19,6 +19,7 @@ antergos-mirrorlist 20170930-1
 antergos-wallpapers 0.7-3
 appstream-glib 0.7.7-1
 arc-gtk-theme 20180114-1
+arc-icon-theme 20161122-1
 archlinux-appstream-data 20180424-1
 archlinux-keyring 20180404-1
 argon2 20171227-3
@@ -73,7 +74,7 @@ clucene 2.3.3.4-9
 clutter 1.26.2-1
 clutter-gst 3.0.26-1
 clutter-gtk 1.8.4-1
-cmake 3.11.1-1
+cmake 3.11.2-1
 cogl 1.22.2+10+g3baa2d7a-1
 colord 1.4.3-1
 colord-gtk 0.1.26+5+ga9d9c91-1
@@ -169,7 +170,7 @@ giflib 5.1.4-1
 git 2.17.0-1
 gjs 1:1.52.3-1
 glew 2.1.0-1
-glib-networking 2.56.0-1
+glib-networking 2.56.1-1
 glib2 2.56.1-1
 glib2-docs 2.56.1-1
 glibc 2.27-3
@@ -208,7 +209,7 @@ gnome-shell-extension-status-menu-buttons 0.3-2
 gnome-shell-extensions 3.28.1-1
 gnome-sound-recorder 3.28.1-1
 gnome-system-monitor 3.28.2-1
-gnome-terminal 3.28.1-1
+gnome-terminal 3.28.2-1
 gnome-themes-extra 3.28-1
 gnome-tweaks 3.28.1-1
 gnome-weather 3.26.0-1
@@ -230,7 +231,7 @@ grub 2:2.02-5
 grub2-theme-antergos 0.1-1
 gsettings-desktop-schemas 3.28.0+1+g85521dc-1
 gsfonts 20170829-1
-gsm 1.0.17-1
+gsm 1.0.18-1
 gspell 1.8.0-1
 gssdp 1.0.2-1
 gssproxy 0.8.0-1
@@ -289,7 +290,7 @@ icu 61.1-1
 idnkit 1.0-3
 ijs 0.35-1
 ilmbase 2.2.1-1
-imagemagick 7.0.7.33-1
+imagemagick 7.0.7.35-1
 imlib2 1.5.1-1
 inetutils 1.9.4-5
 intel-ucode 20180425-1
@@ -343,7 +344,7 @@ lib32-libxshmfence 1.3-1
 lib32-libxxf86vm 1.1.4-1
 lib32-llvm-libs 6.0.0-1
 lib32-lm_sensors 3.4.0-1
-lib32-mesa 18.0.3-1
+lib32-mesa 18.0.4-1
 lib32-ncurses 6.1-1
 lib32-readline 7.0.003-1
 lib32-wayland 1.14.0-1
@@ -358,7 +359,7 @@ libasyncns 0.8+3+g68cd5af-1
 libatasmart 0.19-3
 libatomic_ops 7.6.4-1
 libavc1394 0.5.4-3
-libblockdev 2.16-1
+libblockdev 2.17-3
 libbluray 1.0.2-1
 libbs2b 3.1.0-6
 libbsd 0.8.7-1
@@ -441,8 +442,8 @@ libldap 2.4.46-1
 liblouis 3.5.0-1
 liblqr 0.4.2-1
 libmad 0.15.1b-7
-libmagick 7.0.7.33-1
-libmagick6 6.9.9.45-1
+libmagick 7.0.7.35-1
+libmagick6 6.9.9.47-1
 libmbim 1.16.0-1
 libmediaart 1.9.4+1+ga704d0b-1
 libmm-glib 1.8rc2+1+g7e949283-1
@@ -596,7 +597,7 @@ linux 4.16.9-1
 linux-api-headers 4.16.1-1
 linux-firmware 20180507.8fc2d4e-1
 llvm-libs 6.0.0-4
-lm_sensors 3.4.0-2
+lm_sensors 3.4.0-3
 logrotate 3.14.0-1
 lpsolve 5.5.2.5-2
 lua 5.3.4-2
@@ -617,8 +618,8 @@ make 4.2.1-2
 man-db 2.8.3-1
 man-pages 4.16-1
 mdadm 4.0-1
-mesa 18.0.3-4
-mesa-vdpau 18.0.3-4
+mesa 18.0.4-1
+mesa-vdpau 18.0.4-1
 minizip 1:1.2.11-2
 mjpegtools 2.1.0-3
 mkinitcpio 24-2
@@ -635,6 +636,7 @@ nano 2.9.7-1
 nautilus 3.28.1-1
 nautilus-sendto 3.8.6+13+gff9b88f-1
 ncurses 6.1-3
+ndctl 60.3-1
 neon 0.30.2-3
 net-snmp 5.7.3-8
 net-tools 1.60.20180212git-1
@@ -648,6 +650,7 @@ nfs-utils 2.3.1-1
 nfsidmap 2.3.1-1
 nilfs-utils 2.2.7-1
 nm-connection-editor 1.8.11dev+12+ga37483c1-1
+noto-fonts-cjk 20170601-1
 npth 1.5-1
 nspr 4.19-1
 nss 3.37-1
@@ -668,7 +671,11 @@ openvpn 2.4.6-1
 opus 1.2.1-1
 orc 0.4.28-1
 os-prober 1.76-1
-osinfo-db 20180416-1
+osinfo-db 20180514-1
+osx-arc-darker 1.4.7-2
+osx-arc-plus 1.4.7-2
+osx-arc-shadow 1.4.7-2
+osx-arc-white 1.4.7-2
 p11-kit 0.23.10-1
 package-query 1.9.r380-2
 pacman 5.0.2-3
@@ -759,7 +766,7 @@ python-pyqt5 5.10.1-2
 python-pysmbc 1.0.15.8-1
 python-regex 2018.02.21-1
 python-requests 2.18.4-1
-python-setuptools 1:39.1.0-1
+python-setuptools 1:39.2.0-1
 python-sip 4.19.8-1
 python-six 1.11.0-1
 python-termcolor 1.1.0-5
@@ -855,8 +862,8 @@ v4l-utils 1.14.2-1
 vi 1:070224-2
 vid.stab 1.1-1
 volume_key 0.3.9-5
-vte-common 0.52.1-1
-vte3 0.52.1-1
+vte-common 0.52.2-1
+vte3 0.52.2-1
 vulkan-icd-loader 1.1.73.0-1
 wavpack 5.1.0-2
 wayland 1.15.0-1
