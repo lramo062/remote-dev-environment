@@ -1,7 +1,7 @@
 # run docker with command:
 # docker run -i -t -v /home/lester:/home/lester/local lester/dev-environment /bin/zsh
 
-FROM ubuntu:16.04
+FROM ubuntu:17.04
 
 # Locales
 ENV LANGUAGE=en_US.UTF-8
@@ -33,6 +33,7 @@ RUN apt-get update && apt-get install -y \
       tzdata \
       wget \
       zsh
+
 RUN bash -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 RUN chsh -s /usr/bin/zsh
 
@@ -92,4 +93,6 @@ RUN apt-get update && apt-get upgrade
 
 USER lester
 ENV USER lester
-RUN emacs &
+
+# start emacs in background to download packages
+CMD emacs &
