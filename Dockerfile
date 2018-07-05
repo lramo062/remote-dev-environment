@@ -1,7 +1,7 @@
 # run docker with command:
 # docker run -i -t -v /home/lester:/home/lester/local lester/dev-environment /bin/zsh
 
-FROM ubuntu:17.04
+FROM ubuntu:16.04
 
 # Locales
 ENV LANGUAGE=en_US.UTF-8
