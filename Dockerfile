@@ -1,3 +1,6 @@
+# run docker with command:
+# docker run -i -t -v /home/lester:/home/lester/local lester/dev-environment /bin/zsh
+
 FROM ubuntu:16.04
 
 # Locales
@@ -89,3 +92,4 @@ RUN apt-get update && apt-get upgrade
 
 USER lester
 ENV USER lester
+RUN emacs &
