@@ -32,7 +32,8 @@ RUN apt-get update && apt-get install -y \
       tmux \
       tzdata \
       wget \
-      zsh
+      zsh \
+			python3-tk
 
 RUN bash -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 RUN chsh -s /usr/bin/zsh
