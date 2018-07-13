@@ -33,7 +33,7 @@ RUN apt-get update && apt-get install -y \
       tzdata \
       wget \
       zsh \
-			python3-tk
+      python3-tk
 
 RUN bash -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 RUN chsh -s /usr/bin/zsh
